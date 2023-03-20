@@ -130,5 +130,22 @@ namespace RandomGenerator
             return NextInRange(1, sides + 1);
         }
 
+        /// <summary>
+        /// Devuelve una fecha aleatoria entre 2 fechas. 
+        /// </summary>
+        public static DateTime NextDateTimeInRange(DateTime startDate, DateTime endDate)
+        {
+            if (startDate >= endDate)
+            {
+                throw new ArgumentException("La fecha de inicio debe ser anterior a la fecha de fin.");
+            }
+
+            TimeSpan timeSpan = endDate - startDate;
+            int totalDays = (int)timeSpan.TotalDays;
+            int randomDays = NextInRange(0, totalDays + 1);
+
+            return startDate.AddDays(randomDays);
+        }
+
     }
 }
