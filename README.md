@@ -3,9 +3,8 @@ Esta es una librería de generación de números aleatorios que utiliza el algor
 
 La librería incluye una serie de funciones que permiten a los usuarios generar números aleatorios utilizando diferentes semillas y configuraciones. 
 
-## :star: Highlight 2 :star:
+## :star: Metodos :star: 
 
-> Algunos de los métodos disponibles incluyen:
 >
 > NextBool(): devuelve un valor booleano aleatorio (verdadero o falso).
 > 
