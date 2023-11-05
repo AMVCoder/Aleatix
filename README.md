@@ -8,12 +8,19 @@ La librería incluye una serie de funciones que permiten a los usuarios generar 
 > Algunos de los métodos disponibles incluyen:
 >
 > NextBool(): devuelve un valor booleano aleatorio (verdadero o falso).
+> 
 > NextInRange(min, max): devuelve un número entero aleatorio dentro de un rango específico.
+> 
 > NextFloatRange(min, max): devuelve un número de punto flotante aleatorio dentro de un rango específico.
+> 
 > NextString(List words): Devuelve una cadena aleatoria de la lista de cadenas proporcionada.
+> 
 > Shuffle(array): reordena aleatoriamente los elementos en un array.
+> 
 > PickRandom(array): devuelve un elemento aleatorio de un array.
+> 
 > RollDice(numDice, numSides): simula el lanzamiento de un número determinado de dados con un número determinado de caras.
+> 
 
 
 
